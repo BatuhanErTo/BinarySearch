@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b713de4-c732-43d5-aa2b-039f9978df28" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BinarySearch.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OrderAgnosticBs.java" afterDir="false" />
+    <list default="true" id="7b713de4-c732-43d5-aa2b-039f9978df28" name="Changes" comment="Binary search in 2d arr implemented">
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch2D/RowColumnMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearch2D/SortedMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch2D/SortedMatrix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,26 +36,61 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Java_DSA/BinarySearch",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.OrderAgnosticBs">
+  <component name="RunManager" selected="Application.SortedMatrix">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="BinarySearch.Main" />
       <module name="BinarySearch" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="OrderAgnosticBs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OrderAgnosticBs" />
+      <option name="MAIN_CLASS_NAME" value="BinarySearch.OrderAgnosticBs" />
       <module name="BinarySearch" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RowColumnMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch2D.RowColumnMatrix" />
+      <module name="BinarySearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinarySearch2D.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortedMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch2D.SortedMatrix" />
+      <module name="BinarySearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinarySearch2D.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortedMatrix" />
+        <item itemvalue="Application.RowColumnMatrix" />
         <item itemvalue="Application.OrderAgnosticBs" />
         <item itemvalue="Application.Main" />
       </list>
@@ -74,8 +104,41 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675198789881</updated>
+      <workItem from="1677584688029" duration="4141000" />
     </task>
+    <task id="LOCAL-00001" summary="Binary Search has been implemented">
+      <created>1675202035104</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675202035104</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Binary Search has been implemented">
+      <created>1675202070255</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675202070255</updated>
+    </task>
+    <task id="LOCAL-00003" summary="directories changed">
+      <created>1677589109394</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677589109394</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Binary search in 2d arr implemented">
+      <created>1677589127152</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677589127152</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -87,5 +150,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Binary Search has been implemented" />
+    <MESSAGE value="directories changed" />
+    <MESSAGE value="Binary search in 2d arr implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="Binary search in 2d arr implemented" />
   </component>
 </project>
